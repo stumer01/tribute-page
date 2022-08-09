@@ -1,10 +1,32 @@
+/*General*/
+
 body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #181818;
   max-width: 800px;
   margin: 0 auto;
-  background: linear-gradient(to bottom right, #e7e7e7, #a8a8a8);
+  line-height: 1.5;
+  background: linear-gradient(to bottom right, #eeeeee, #D4EFF2);
 }
 
-h1, h3, p {
+figure, header, section {
+  box-shadow: 0 0 4px 1px #242424;
+}
+
+figure {
+  width: 100%;
+  margin-left: 0;
+}
+
+figcaption {
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+
+/*Headers*/
+
+h1, p, h3 {
   text-align: center;
   margin: 6px 0;
 }
@@ -13,11 +35,24 @@ h3 {
   margin: 2em 0;
 }
 
+h2 {
+  margin-left: 16px;
+}
+
 header {
-  background: linear-gradient(to bottom right, #EBD7AD, #ffecc4);
+  background: linear-gradient(to bottom right, #8acece, #8fdada);
   border-radius: 1em;
   padding: 12px 16px;
-  margin: 1.4rem 0;
+  margin: 2em 0;
+}
+
+
+/*Image*/
+
+#img-div {
+  margin: 2em 0;
+  background: linear-gradient(to bottom right, #6EBE49, #9df175);
+  border-radius: 1em;
 }
 
 #image {
@@ -28,13 +63,37 @@ header {
   border-radius: 1em;
 }
 
+
+/*Tribute Info*/
+
 #tribute-info {
-  background: linear-gradient(to bottom right, #EBD7AD, #ffecc4);
+  background: linear-gradient(to bottom right, #8acece, #8fdada);
   padding: 1em 2em;
   border-radius: 1em;
+  margin-bottom: 2em;
 }
 
-li {
+li, p {
   margin: 1em 0;
-  font-size: 18px;
+}
+
+
+/*Quote*/
+
+#cite-div {
+  box-sizing: border-box;
+  background: linear-gradient(to bottom right, #6EBE49, #9df175);
+  border-radius: 1em;
+  padding: 1em 2em;
+  font-style: italic;
+}
+
+/*Link*/
+
+#tribute-link {
+  color: #52caca;
+}
+
+#tribute-link:hover {
+  color: #6EBE49;
 }
